@@ -1,0 +1,22 @@
+$theme-colors: (
+  "primary": #6200ea,
+  "success": #fa1565,
+  "danger": red,
+  "warning": #ffab00,
+);
+
+@import "~bootstrap/scss/bootstrap";
+
+body {
+  padding-top: 5rem;
+  cursor: pointer;
+}
+
+.actions {
+  opacity: 0;
+}
+
+tr:hover .actions {
+  opacity: 1;
+}
+
